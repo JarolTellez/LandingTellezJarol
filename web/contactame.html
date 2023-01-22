@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<!-- 
+	Contactame
+	Nombre:Jarol Francisco Tellez Castro
+	ID:00000228188
+-->
+
+<html>
+    <head>
+        <meta charset=utf-8">
+        <title>Contactame</title>
+        >
+    </head>
+    <body>
+	
+		<header>
+      
+	   	 <img src="imagenes/itson.png"/>
+		<h3>Sitio web estatico</h3>
+		 <nav >
+            <p>Secci&oacute;n de navegaci&oacute;n</p>
+			|
+			 <a href="index.html">Portada</a> |
+            
+            <a href="aficiones.html">Hobbies</a> |
+			 <a href="seriesPeliculas.html">Series o peliculas fav</a> |
+        
+        </nav>
+        <hr />
+     		</header>
+     		
+        <form action ="mailto: jarol.tellez228188@potros.itson.edu.mx?subject=Correo"
+              method=post enctype="text/plain">
+			    <hr />
+            <p></p>
+			 
+            <label for="nombreId">Nombre: </label>
+            <input type="text" id="nombreId" name="nombre" required />
+            
+            <p></p>
+            <label for="direccionId">Dirección: </label>
+            <input id="passwordId" required />
+
+            <p></p>
+            <label for="emailId" >Email: </label>
+            <input type="text" id="emailId" name="email"  />
+			
+			<fieldset>
+                <legend>Aficiones:</legend>
+                <input type="checkbox" id="lecturaId" name="Aficion" value="Lectura" />
+                <label for="lectura" >Lectura</label>
+                <br />
+                <input type="checkbox" id="escrituraId" name="Aficion" value="Escritura" />
+                <label for="escrituraId" >Escritura</label>
+                <br />
+				
+				 <input type="checkbox" id="cocinaId" name="Aficion" value="Cocina" />
+                <label for="cocinaId" >Cocina</label>
+                <br />
+				
+				
+				 <input type="checkbox" id="bailarId" name="Aficion" value="Bailar" />
+                <label for="industrial" >Bailar</label>
+                <br />
+				
+				 <input type="checkbox" id="musicaId" name="Aficion" value="Musica" />
+                <label for="musicaId" >Musica</label>
+                <br />
+				
+				 <input type="checkbox" id="ejercicioId" name="Aficion" value="Ejercicio" />
+                <label for="ejercicioId" >Ejercicio</label>
+                <br />
+				
+				<input type="checkbox" id="escribirId" name="Aficion" value="Escribir" />
+                <label for="escribirId" >Escribir</label>
+                <br />
+				
+               
+            </fieldset>
+            
+			
+            
+            
+            <p></p>
+            <label for="ocupacionId" >ocupación: </label>
+            <input type="text" id="ocupacionId" name="ocupacion" /><br>
+
+           
+			
+			<fieldset>
+                <legend>Sexo:</legend>
+                <input type="hidden" name="sexo" value="Sexo" />
+
+                <select name="donde">
+                    <!-- Opciones del menú -->
+                    <option>Femenino</option> 
+                   
+                    <option>Masculino</option> 
+                                          
+                    </optgroup>    
+                </select>
+            </fieldset>
+			
+			<fieldset>
+                <legend>Comentarios:</legend>
+                <textarea name="comentario" rows="5" cols="80"></textarea>
+            </fieldset>
+            <br />
+
+
+            
+            
+            <div align="center" >
+                <input type="submit" name="boton" value="Enviar" />        
+                <input type="reset" value="Borrar" />
+            </div>
+        </form>
+		
+		 <footer>
+            <p>Diseñado por: Jarol Francisco Tellez Castro</p>
+			 <a href="contactame.html">Contactame</a>
+        </footer>
+    </body>
+</html>
