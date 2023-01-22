@@ -10,26 +10,39 @@
     <head>
         <meta charset=utf-8">
         <title>Contactame</title>
-        >
+        	 <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+         
     </head>
     <body>
 	
-		<header>
+		<header id="header">
       
 	   	 <img src="imagenes/itson.png"/>
-		<h3>Sitio web estatico</h3>
-		 <nav >
+		<h3>Sitio web</h3>
+		 <nav  id="menu">
             <p>Secci&oacute;n de navegaci&oacute;n</p>
-			|
-			 <a href="index.html">Portada</a> |
-            
-            <a href="aficiones.html">Hobbies</a> |
-			 <a href="seriesPeliculas.html">Series o peliculas fav</a> |
+            	  <ul>
+						<li> 
+                              <a href="index.html">Portada</a>
+                        </li>
+                        <li> 
+                          	 <a href="aficiones.html">Hobbies</a>
+                        </li>
+                        <li> 
+                         <a href="seriesPeliculas.html">Series o peliculas fav</a>
+                        </li>
+                       
+                       
+			
         
         </nav>
         <hr />
      		</header>
-     		
+     		<div class="clearfix"></div>
+			
+			
+			<main id="mainAficion">
+       
         <form action ="mailto: jarol.tellez228188@potros.itson.edu.mx?subject=Correo"
               method=post enctype="text/plain">
 			    <hr />
@@ -116,8 +129,10 @@
                 <input type="reset" value="Borrar" />
             </div>
         </form>
+		 </main>
 		
-		 <footer>
+		 <footer id="footer">
+		
             <p>Diseñado por: Jarol Francisco Tellez Castro</p>
 			 <a href="contactame.html">Contactame</a>
         </footer>
